@@ -29,7 +29,7 @@ This README outlines how to quickly deploy your Angular CLI project to Heroku.
 ## Changes Made to Original Angular CLI code
 
 * Added [`server.js`](https://github.com/frankMagoba/angular-cli-heroku-boilerplate/blob/master/server.js)
-* Added `@angular/cli` to dev-dependencies in [`package.jeson`](https://github.com/frankMagoba/angular-cli-heroku-boilerplate/blob/master/package.json)
+* Added `@angular/cli` to dev-dependencies in [`package.json`](https://github.com/frankMagoba/angular-cli-heroku-boilerplate/blob/master/package.json)
 * Added `@angular/compiler-cli` to dev-dependencies in [`package.json`](https://github.com/frankMagoba/angular-cli-heroku-boilerplate/blob/master/package.json)
 * Added `postinstall` script to [`package.json`](https://github.com/frankMagoba/angular-cli-heroku-boilerplate/blob/master/package.json) that builds app for production deployment
 * Edited `start` script in [`package.json`](https://github.com/frankMagoba/angular-cli-heroku-boilerplate/blob/master/package.json) to launch run [`server.js`](https://github.com/frankMagoba/angular-cli-heroku-boilerplate/blob/master/server.js) instead of Angular CLI server
