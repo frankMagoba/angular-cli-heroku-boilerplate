@@ -6,7 +6,7 @@ This README outlines how to quickly deploy your Angular CLI project to Heroku.
 * [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 
 ## Installation
-* `git clone https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate.git <your-project-name>`
+* `git clone https://github.com/frankMagoba/angular-cli-heroku-boilerplate.git <your-project-name>`
 * `cd <your-project-name>`
 * `npm install`
 
@@ -14,7 +14,6 @@ This README outlines how to quickly deploy your Angular CLI project to Heroku.
 ### Running locally
 * `npm start`
 * Visit your app at [http://localhost:8080](http://localhost:8080)
-  * This should be similar to my [Heroku site](https://angular-cli-heroku-boilerplate.herokuapp.com/)
 
 ### Deploying to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
@@ -29,11 +28,11 @@ This README outlines how to quickly deploy your Angular CLI project to Heroku.
 
 ## Changes Made to Original Angular CLI code
 
-* Added [`server.js`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/server.js)
-* Added `@angular/cli` to dev-dependencies in [`package.json`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/package.json)
-* Added `@angular/compiler-cli` to dev-dependencies in [`package.json`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/package.json)
-* Added `postinstall` script to [`package.json`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/package.json) that builds app for production deployment
-* Edited `start` script in [`package.json`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/package.json) to launch run [`server.js`](https://github.com/AryanJ-NYC/angular-cli-heroku-boilerplate/blob/master/server.js) instead of Angular CLI server
+* Added [`server.js`](https://github.com/frankMagoba/angular-cli-heroku-boilerplate/blob/master/server.js)
+* Added `@angular/cli` to dev-dependencies in [`package.jeson`](https://github.com/frankMagoba/angular-cli-heroku-boilerplate/blob/master/package.json)
+* Added `@angular/compiler-cli` to dev-dependencies in [`package.json`](https://github.com/frankMagoba/angular-cli-heroku-boilerplate/blob/master/package.json)
+* Added `postinstall` script to [`package.json`](https://github.com/frankMagoba/angular-cli-heroku-boilerplate/blob/master/package.json) that builds app for production deployment
+* Edited `start` script in [`package.json`](https://github.com/frankMagoba/angular-cli-heroku-boilerplate/blob/master/package.json) to launch run [`server.js`](https://github.com/frankMagoba/angular-cli-heroku-boilerplate/blob/master/server.js) instead of Angular CLI server
 
 ## Support
 Like this boilerplate? Support my developments.
